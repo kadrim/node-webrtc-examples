@@ -1,5 +1,7 @@
 FROM node:16-buster
 
+RUN apt -y update && apt -y install ffmpeg build-essential
+
 WORKDIR /app
 
 COPY package.json .
