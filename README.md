@@ -39,7 +39,7 @@ Run the following commands to use the whole project within docker:
 
 ```
 $ docker build -t node-webrtc-examples .
-$ docker run --network host node-webrtc-examples
+$ docker run --rm --network host node-webrtc-examples
 ```
 
 *Note: host-mode currently only works on Linux!*
