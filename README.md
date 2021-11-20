@@ -32,6 +32,16 @@ npm start
 
 Then, navigate to [http://localhost:3000](http://localhost:3000).
 
+Docker
+------
+
+Run the following commands to use the whole project within docker:
+
+```
+$ docker build -t node-webrtc-examples .
+$ docker run -p 3000:3000 node-webrtc-examples
+```
+
 Architecture
 ------------
 
